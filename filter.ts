@@ -57,9 +57,10 @@ const justPublic = new OtherResults
 justPublic.ShowNotes()
 
 
-const OtherResultsing = (item) => {
-    return item > 5000
+const OtherResultsing = (item:number) => {
+    return item < 5000
 }
 
 const dates = [1232,3213,4,213,123,435,23,3423,4123,45353].filter(OtherResultsing)
+dates.forEach(calls => console.log(calls < 50))
 console.log(dates)
