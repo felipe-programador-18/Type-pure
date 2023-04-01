@@ -87,3 +87,17 @@ const cal: (soma:number, anothersoma: number) => number = (soma, anothersoma) =>
 }
 
 console.log(cal(123,12322))
+
+
+const OtherDates = {
+  name:'felipe',
+  city:'porto alegre',
+
+  // this is different
+  setDates(name:string) : void {
+    this.name =name
+  }
+
+}
+
+const{name}:{name:string}  = OtherDates
