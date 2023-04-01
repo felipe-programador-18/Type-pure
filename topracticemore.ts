@@ -13,3 +13,10 @@ const filterName = (item:string) => {
 const Name:string[] = ['felipe', 'martins','felipe'].filter(filterName)
 
 console.log(Name)
+
+const DoDifferent = (names: string) => {
+    return names === "programer"
+}
+ 
+const add: string[] = ['programer',"programmer","programador","software developer"].filter(DoDifferent)
+console.log(add)
