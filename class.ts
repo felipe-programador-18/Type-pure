@@ -11,6 +11,9 @@ const receiveMore: Pessoa = {
     sexo:"m"
 }
 
+
+
+
 //guidance object
 class Funcionario implements Pessoa {
     //object constructor read about this to remember
@@ -18,6 +21,5 @@ class Funcionario implements Pessoa {
     [key:string]: string | number ;
     constructor(name:string ){
         this.name = name,
-    }
-    
+    }   
 }
